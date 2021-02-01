@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1612193329 source:d:\simple_calculator_0.2\1.cpp
+	<iostream>
+	<cstdlib>
+
