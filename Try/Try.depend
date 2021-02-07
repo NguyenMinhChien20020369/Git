@@ -1,4 +1,11 @@
 # depslib dependency file v1.0
-1611975053 source:d:\try\main.cpp
+1612076512 source:d:\try_3\1.cpp
 	<bits/stdc++.h>
+
+1612573733 source:d:\chuan_muc\private\try\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
 
