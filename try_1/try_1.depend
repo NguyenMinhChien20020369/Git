@@ -1,9 +1,4 @@
 # depslib dependency file v1.0
-1612608085 source:d:\chuan_muc\private\try_1\main.cpp
-	<cstdio>
-	<cstring>
-	<cstdlib>
-	<cassert>
-	<cmath>
-	<vector>
+1613459114 source:d:\chuan_muc\private\try_1\main.cpp
+	<bits/stdc++.h>
 

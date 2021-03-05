@@ -3,7 +3,7 @@ using namespace std;
 
 const int MAXN = 100000;
 
-const unsigned long long MAGIC= 0xabcdef;
+const unsigned long long MAGIC= 11259375;
 const long long MAGIC2 = 97;
 const long long MOD = 1000000007;
 
@@ -23,6 +23,7 @@ int main()
     assert(1 <= n && n <= MAXN);
     assert(1 <= m && m <= MAXN);
     assert(scanf("%s", s) == 1);
+    cout<<strlen(s)<< " "<<n;
     assert(strlen(s) == n);
 
     pw[0] = pw2[0] = 1;
@@ -39,6 +40,12 @@ int main()
         cout<<pw[i]<<" "<<pw2[i]<<" "<<h[i]<<" "<<h2[i]<<endl;
     }*/
     int SQRTN = (int)sqrt(n);
+    //cout<<SQRTN<<endl;
+    /*
+    10 5
+ababcabccc
+*/
+
     vector< vector<int> > f(n, vector<int>(SQRTN + 1, 0));
     for (int i = n - 1; i >= 0; -- i) {
         for (int length = 1; length <= SQRTN; ++ length) {
@@ -53,6 +60,7 @@ int main()
             }
         }
     }
+
 
     long long total = 0;
     for (int i = 0; i < m; ++ i) {
@@ -77,6 +85,14 @@ int main()
         }
     }
     //fprintf(stderr, "%I64d\n", total);
+    /*for(int i=0;i<10;i++){
+        for(int j=0;j<4;j++){
+            cout<<f[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    int q=(int)('ab');
+    cout<<q;*/
     return 0;
-    */
+
 }
