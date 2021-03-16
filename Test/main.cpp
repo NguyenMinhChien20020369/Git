@@ -4,16 +4,12 @@ using namespace std;
 
 int main()
 {
-    int a=10,b=20,c=30,sum=0;
-    int *pA=&a, *pB=&b,*pInt;
-    int **ppInt=&pInt;
-    (*ppInt)=pA;
-    sum+=(**ppInt);
-    (*ppInt)=pB;
-    sum+=(*pInt);
-    *ppInt=&c;
-    sum+=(**ppInt);
-    //cout<<&a<<" "<<&b<<" "<<&c<<" "<<&sum<<" "<<&pA<<" "<<&pB<<" "<<&pInt<<" "<<&ppInt;
-    cout<<pA;
+    int a;
+   char *x;
+   x = (char *) &a;
+   //a = 512;
+   x[0] = 1;
+   x[1] = 2;
+   cout<<a;
     return 0;
 }
