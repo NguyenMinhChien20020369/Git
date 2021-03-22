@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1616237288 source:d:\chuan_muc\private\study_sdl2\commonfuntion.cpp
+
+1616242795 source:d:\chuan_muc\private\study_sdl2\main.cpp
+	"commonFuntion.h"
+
+1616237597 d:\chuan_muc\private\study_sdl2\commonfuntion.h
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
