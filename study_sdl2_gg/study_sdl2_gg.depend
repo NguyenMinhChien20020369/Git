@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1616506083 source:d:\chuan_muc\private\study_sdl2_gg\main.cpp
+	<stdio.h>
+	<SDL.h>
+

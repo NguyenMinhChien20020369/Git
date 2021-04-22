@@ -31,9 +31,10 @@ void print(int& temp,int& n,string& s,string& p)
 int main()
 {
     int n,temp=1;
-    string s,p;
+    string s,p,my_end;
     cin>>n>>s;
     print(temp, n, s,p);
+    cin>>my_end;
     return 0;
 }
 
