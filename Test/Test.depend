@@ -1,10 +1,5 @@
 # depslib dependency file v1.0
-1616507822 source:d:\chuan_muc\private\test\main.cpp
-	<bits/stdc++.h>
-
-1616507797 d:\chuan_muc\private\test\untitled1.h
-	<bits/stdc++.h>
-
-1616507797 source:d:\chuan_muc\private\test\untitled1.h
+1624699806 source:d:\chuan_muc\private\test\main.cpp
+	<stdio.h>
 	<bits/stdc++.h>
 

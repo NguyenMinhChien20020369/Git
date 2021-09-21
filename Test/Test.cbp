@@ -32,9 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="chan.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="sta.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
